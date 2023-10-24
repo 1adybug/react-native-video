@@ -3,7 +3,7 @@ apply plugin: 'kotlin-android'
 
 buildscript {
     def kotlin_version = rootProject.ext.has('kotlinVersion') ? rootProject.ext.get('kotlinVersion') :
-            (project.properties['RNSAC_kotlinVersion'] ? project.properties['RNSAC_kotlinVersion'] : "1.6.10")
+            (project.properties['RNSAC_kotlinVersion'] ? project.properties['RNSAC_kotlinVersion'] : "1.6.20")
 
     repositories {
         mavenCentral()
